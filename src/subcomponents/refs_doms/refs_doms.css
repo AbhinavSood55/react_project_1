@@ -1,0 +1,18 @@
+.grid{
+    display: grid;
+    grid-template-columns: 1fr 4fr 1fr;
+    /* background-color: aquamarine; */
+    /* grid-template-rows: 200px; */
+    /* grid-template-columns: auto; */
+}
+
+.firstColumn, .lastColumn{
+    background-color: darksalmon;
+    /* margin: 1%; */
+}
+
+.grid form{
+    background-color: azure;
+    margin-left: 1%;
+    margin-right: 1%;
+}
